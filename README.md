@@ -42,9 +42,18 @@ Edit this document to include your answers after each question. Make sure to lea
 
 4. Describe the four rules of the 'this' keyword.
 
-    ANSWER:The four rules of 'this' are: Window/console binding, 'this' is given the value of the window/console
+    ANSWER:The four rules of 'this' are: 
+    
+    --Window/console binding, 'this' is given the value of the window/console
+
+    --Implicit Binding: Whatever is to the left of a dot when calling a function, that is "this"
+
+    --Explicit Binding: This is defined when the call or apply method is used.
+
+    --New Binding: When a constructor function is used, you use the "new" keyword to implement and apply your newly created properties to a "this" object.
 
 5. Why do we need super() in an extended class?
+    ANSWER: 'super()' is how you inherit the properties from the parent object. 
 
 ## Project Set up
 
