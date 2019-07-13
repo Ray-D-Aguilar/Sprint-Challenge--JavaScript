@@ -24,13 +24,13 @@ const stegosaurus = {
   period: "Late Jurassic"
 }
 
-}
+
 // velociraptor, carnivorous, 15kg, 1.8m, Late Cretaceous
-const tyrannosaurus = {
-  name: "T-rex",
+const velociraptor = {
+  name: "Velociraptor",
   diet: "carnivorous",
-  weight: "7000kg",
-  length: "12m",
+  weight: "15kg",
+  length: "1.8m",
   period: "Late Cretaceous"
 }
 // Using your dinosaur objects, log answers to these questions:
