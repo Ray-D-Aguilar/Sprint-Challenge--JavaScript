@@ -91,7 +91,10 @@ Name email@example.com
 Log the result of your new array. */
 const contactInfo = [];
 
-
+for(let i = 0; i < graduates.length; i++) {
+  let namesAndEmail = `First name: ${graduates[i].first_name}, Email: ${graduates[i].email} `
+  contactInfo.push(namesAndEmail);
+}
 
 
 console.log(contactInfo);
@@ -99,6 +102,11 @@ console.log(contactInfo);
 
 /* Request 3: Find out how many universities have the string "Uni" included in their name. Create a new array called uni that contains them all. Log the result. */
 const uni = [];
+  for(let i = 0; i < graduates.length; i++) {
+    if(graduates[i].university.includes("Uni")) { /*includes() "Determines whether an array includes a certain value. Source: https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/includes" */
+      uni.push(graduates[i].university); 
+    }
+  }
 console.log(uni);
 
 
@@ -124,6 +132,9 @@ The zoo wants to display both the scientific name and the animal name in front o
 
 */
 const animalNames = [];
+
+zooAnimals.forEach()
+
 console.log(animalNames);
 
 /* Request 2: .map()    
