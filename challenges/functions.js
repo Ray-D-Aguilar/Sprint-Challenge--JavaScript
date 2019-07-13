@@ -33,7 +33,16 @@ function multiply(num1, num2) {
 }
 
 let product2 = consume(9, 3, multiply);
-console.log(product2)
+console.log(product2);
+
+//Function 3
+
+function greeting(firstName, lastName) {
+  return `Hello ${firstName} ${lastName}, nice to meet you!`
+}
+
+let introduction = consume("Ray", "Aguilar", greeting);
+console.log(introduction);
 
 /* Step 3: Check your work by un-commenting the following calls to consume(): */
 // consume(2,2,add); // 4
